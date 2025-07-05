@@ -1,1 +1,67 @@
-/build
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Android Studio navigation editor temp files
+.navigation/
+
+# Signing configs
+signing.properties
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Kotlin/Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+captures/
+output.json
+
+# Crashlytics
+crashlytics-build.properties
+
+# NDK
+.externalNativeBuild/
+
+# Jetpack Compose previews
+**/debug/out/
+
+# Gradle cache
+.cxx/
+
+# KSP (Kotlin Symbol Processing)
+.ksp/
+
+# Firebase
+google-services.json
+firebase.json
+
+# IntelliJ run configs
+.idea/runConfigurations/
+
+# VS Code (if used)
+.vscode/
+
+# Local test results
+test-results/
